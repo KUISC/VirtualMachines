@@ -1,6 +1,9 @@
 #Instructions
 After launching VM with VMware login as one of the two users. Run 'ifconfig' command and pull the IP address. Open browser to IP address to verify WordPress site is running.
 
+- built by: Adam Mertz
+- contact: adammertz at gmail com
+
 ##OS info
 - root : jayhawks
 - guy : basketball
@@ -13,6 +16,3 @@ After launching VM with VMware login as one of the two users. Run 'ifconfig' com
 ##WordPress
 - version : 3.2
 - admin : admin
-
-- built by: Adam Mertz
-- contact: adammertz at gmail com
