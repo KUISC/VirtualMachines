@@ -17,6 +17,11 @@ Version : Ubuntu Server 14.04.3
 ## MySQL
 Version : 5.5.44
 
+| Notes           |                       |
+|-----------------------------------------|
+| Version         | 5.5.44                |
+| Vulnerabilities | http://bit.ly/1KFCNxb |
+
 | **user**      | **password** |
 |---------------|--------------|
 | root          | pass         |
@@ -26,10 +31,14 @@ To login run
 ```bash
 $ mysql -u USERNAME -p
 ```
-It will then prompt you for a password
+It will then prompt you for password input
 
 ## WordPress
-Version : 3.9
+
+| Notes           |                       |
+|-----------------------------------------|
+| Version         | 3.9                   |
+| Vulnerabilities | http://bit.ly/1KFCnqB |
 
 | **user** | **password** |
 |----------|--------------|
@@ -43,7 +52,7 @@ and you will likely see
 ```bash
 inet addr:192.168.0.10
 ```
-Open up your browser and navigate to this IP and verify WordPress site is running.
+Open up your browser and navigate to this IP and verify WordPress site is running. You can login from the homepage or go to http://IPADDRES/wp-admin to access the admin panel
 
 
 ## Build Notes
