@@ -1,7 +1,10 @@
 # Instructions
-After launching VM with VMware login as one of the two users.
-- built by: Adam Mertz
-- contact: adammertz at gmail com
+After launching VM with VMware login as one of the two users via ssh
+
+```bash
+$ ssh USER@IPADDRESS
+```
+type yes when prompted to downoad RSA key
 
 ## OS info
 Version : Ubuntu Server 14.04.3
@@ -16,7 +19,7 @@ Version : 5.5.44
 
 | **user**      | **password** |
 |---------------|--------------|
-| root          | jayhawks     |
+| root          | pass         |
 | wordpressuser | pass         |
 
 To login run
@@ -26,11 +29,11 @@ $ mysql -u USERNAME -p
 It will then prompt you for a password
 
 ## WordPress
-Version : 3.2
+Version : 3.9
 
 | **user** | **password** |
 |----------|--------------|
-| admin    | admin        |
+| admin    | pass         |
 
 Get you VMs IP address via
 ```bash
@@ -41,3 +44,8 @@ and you will likely see
 inet addr:192.168.0.10
 ```
 Open up your browser and navigate to this IP and verify WordPress site is running.
+
+
+## Build Notes
+- built by: Adam Mertz
+- contact: adammertz at gmail com
