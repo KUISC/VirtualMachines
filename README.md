@@ -12,10 +12,21 @@ Clone repo to your local machine using
 $ git clone https://github.com/KUInfoSecClub/VirtualMachines.git
 ```
 
-We will host a temporary web server so you can download the tarball containing the machine. Save that file under the directory it is associated with. Then extract it with the following command.
+We will host a temporary web server so you can download the tarball containing the machine. If you are a Windows user you will need to save the file into the appropriate directory and see note below. Unix based systems can just run the command noted below.
 
+#### To host temp web server
+```bash
+# Python 2
+$ python -m SimpleHTTPServer
+
+# Python 3
+$ python3 -m http.server
+```
+
+#### Unix
 ```bash
 $ tar -zxvf TARBALLNAME.tar.gz
 ```
 
-If you are a **Windows** user you will need to download and install 7zip via the following. http://www.7-zip.org/
+#### Windows
+You will need to download and install 7zip to extract tarballs via the following. http://www.7-zip.org/
