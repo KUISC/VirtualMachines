@@ -18,4 +18,6 @@ We will host a temporary web server so you can download the tarball containing t
 $ tar -zxvf TARBALLNAME.tar.gz
 ```
 
-If you are a **Windows** user you will need to download and install 7zip via the following http://www.7-zip.org/
+If you are a **Windows** user you will need to download and install 7zip via the following.
+
+http://www.7-zip.org/
