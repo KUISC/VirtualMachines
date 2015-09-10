@@ -8,10 +8,20 @@ type yes when prompted to downoad RSA key
 
 ## OS info
 
-| Notes           |                       |
-|-----------------|-----------------------|
-| OS              | Ubuntu Server         |
-| Version         | 14.04.3               |
+For Windows users download the ISO directly with link below and place it in the directory this README is in. OSX and Linux users can use the following commands from the directory
+
+```bash
+# Mac OSX
+$ curl http://mirror.pnl.gov/releases/14.04.3/ubuntu-14.04.3-desktop-amd64.iso
+# Linux
+$ wget http://mirror.pnl.gov/releases/14.04.3/ubuntu-14.04.3-desktop-amd64.iso
+```
+
+| Notes           |                          |
+|-----------------|--------------------------|
+| OS              | Ubuntu Server            |
+| Version         | 14.04.3                  |
+| ISO             | http://1.usa.gov/1KFFlLC |
 
 ### Logins
 
