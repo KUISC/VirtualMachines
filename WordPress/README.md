@@ -7,7 +7,13 @@ $ ssh USER@IPADDRESS
 type yes when prompted to downoad RSA key
 
 ## OS info
-Version : Ubuntu Server 14.04.3
+
+| Notes           |                       |
+|-----------------|-----------------------|
+| OS              | Ubuntu Server         |
+| Version         | 14.04.3               |
+
+### Logins
 
 | **user** | **password** |
 |----------|--------------|
@@ -15,12 +21,12 @@ Version : Ubuntu Server 14.04.3
 | guy      | basketball   |
 
 ## MySQL
-Version : 5.5.44
-
 | Notes           |                       |
-|-----------------------------------------|
+|-----------------|-----------------------|
 | Version         | 5.5.44                |
 | Vulnerabilities | http://bit.ly/1KFCNxb |
+
+### Logins
 
 | **user**      | **password** |
 |---------------|--------------|
@@ -36,9 +42,11 @@ It will then prompt you for password input
 ## WordPress
 
 | Notes           |                       |
-|-----------------------------------------|
+|-----------------|-----------------------|
 | Version         | 3.9                   |
 | Vulnerabilities | http://bit.ly/1KFCnqB |
+
+### Logins
 
 | **user** | **password** |
 |----------|--------------|
