@@ -14,7 +14,8 @@ $ git clone https://github.com/KUInfoSecClub/VirtualMachines.git
 
 We will host a temporary web server so you can download the tarball containing the machine. If you are a Windows user you will need to save the file into the appropriate directory and see note below. Unix based systems can just run the command noted below.
 
-#### To host temp web server
+#### Web Server
+To host a temporary web server run the following command from the directory you wish to share.
 ```bash
 # Python 2
 $ python -m SimpleHTTPServer
